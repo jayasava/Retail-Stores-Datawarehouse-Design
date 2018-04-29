@@ -11,3 +11,15 @@ To Capture Purchases of Customers at POS and impact of Promotions on sales
 The Operational System captures Lowest Grain/ Atomic data ie., Each row has single Item bought on a particular day.
 This can be used to find difference in sales daily/weekly/monthly/yearly
 
+### 4. Designing Dimensions:
+
+Dimensions required as per Operational System:
+
+Date
+Store(again has Location dimension)
+Cashier
+Product
+Promotions
+MethodOfPayment
+
+
