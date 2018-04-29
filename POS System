@@ -7,7 +7,8 @@
 Store Number: S1
 POS Cashier: C1
 
-## ProductKey         ProductShortName         Quantity              Actual Price            Discount                Net Price
+|ProductKey|ProductShortName|Quantity|Actual Price|Discount|Net Price|
+|----------|----------------|--------|------------|--------|---------|
 
 
 
@@ -18,8 +19,7 @@ POS Cashier: C1
 
 
 
-
-                             Total Items Brought:             Total Amount:                 You Save:                You Owe:    
+          |Total Items Brought:      |Total Amount:  |You Save:  | You Owe:    |
 
          
 
