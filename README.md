@@ -22,4 +22,14 @@ Product|
 Promotions|
 MethodOfPayment|
 
+### 5. Identifying Facts:
+Fact Table consists of One product per line.
+Facts would be - 
+1. Quantity of product bought
+2. Actual Price of Product per Unit
+3. Actual Amount = Quantity of product bought * Actual Price of Product Per Unit
+4. Discount on Product per Unit
+5. Total Discount = Quantity of Product bought * Discount on Product per Unit
+
+
 
