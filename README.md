@@ -15,11 +15,11 @@ This can be used to find difference in sales daily/weekly/monthly/yearly
 
 Dimensions required as per Operational System:
 
-Date
-Store(again has Location dimension)
-Cashier
-Product
-Promotions
-MethodOfPayment
+Date|
+Store(again has Location dimension)|
+Cashier|
+Product|
+Promotions|
+MethodOfPayment|
 
 
