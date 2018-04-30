@@ -37,6 +37,6 @@ Facts would be -
 
 #### Intial Retail Stores Schema
 (RetailStoresSchema- Initial)
-![Intial Schema]("C:\Users\Sahithi\Desktop\Datawarehouse\Schema_1.png")
+![Intial Schema](C:/Users/Sahithi/Desktop/Datawarehouse/Schema_1.png)
 
 
