@@ -1,0 +1,15 @@
+TransactionID
+DateKey(ForeignKey)
+StoreKey(ForeignKey)
+CashierKey(ForeignKey)
+ProductKey(ForeignKey)
+PaymentMethodKey(ForeignKey)
+ItemQuantity
+RegularItemPrice
+ActualAmount
+PerItemDiscount
+TotalDiscount
+NetAmount
+StandardProductCost
+TotalStandardCost
+GrossProfit
