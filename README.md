@@ -4,6 +4,29 @@
 The Operational system of Retail system is Transaction based and on scanning the barcode of products, following details are captured.
 (POS diagram)
 
+                                                    Organization Name
+                                               Address Line1, Address Line2,
+                                                  City, State, Zip code
+                                                     Phone Number
+
+
+Store Number: S1    
+POS Cashier: C1
+
+|ProductKey|ProductShortName|Quantity|Actual Price|Discount|Net Price|
+|----------|----------------|--------|------------|--------|---------|
+
+
+
+                                |TotalItems:      |Total Amount:   |You Save:   | You Owe:    |
+          
+                 Paid by: Cash/Card
+
+         
+
+-------------------------------------------------------------------------------------------------------------------------------  
+  Transaction ID:  12345678910110013227
+-------------------------------------------------------------------------------------------------------------------------------
 ### 2. Business Process(Operational System):
 To Capture Purchases of Customers at POS and impact of Promotions on sales
 
