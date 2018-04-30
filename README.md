@@ -35,5 +35,7 @@ Facts would be -
 8. Total Standard Cost = Standard Cost of Product per Unit * Quantity of product bought
 9. Gross Profit = Total Standard Cost - Net Amount
 
+#### Intial Retail Stores Schema
+(RetailStoresSchema- Initial)
 
 
