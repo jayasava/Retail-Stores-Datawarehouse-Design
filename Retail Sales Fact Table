@@ -5,11 +5,11 @@ CashierKey(ForeignKey)
 ProductKey(ForeignKey)
 PaymentMethodKey(ForeignKey)
 ItemQuantity
-RegularItemPrice
-ActualAmount
-PerItemDiscount
-TotalDiscount
-NetAmount
-StandardProductCost
-TotalStandardCost
-GrossProfit
+RegularItemPrice -- Non-Additive Fact
+ActualAmount --Derived fact
+PerItemDiscount -- Non-Addtive Fact
+TotalDiscount --Derived Fact
+NetAmount  --Derived Fact
+StandardProductCost --Non-Additive Fact
+TotalStandardCost --Derived Fact
+GrossProfit --DerivedFact
