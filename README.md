@@ -30,6 +30,10 @@ Facts would be -
 3. Actual Amount = Quantity of product bought * Actual Price of Product Per Unit
 4. Discount on Product per Unit
 5. Total Discount = Quantity of Product bought * Discount on Product per Unit
+6. Net Amount = Actual Amount - Total Discount
+7. Standard Cost of Product per Unit
+8. Total Standard Cost = Standard Cost of Product per Unit * Quantity of product bought
+9. Gross Profit = Total Standard Cost - Net Amount
 
 
 
