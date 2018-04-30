@@ -38,5 +38,7 @@ Facts would be -
 #### Intial Retail Stores Schema
 (Schemas\Schema_1)
 
+![Link](Retail-Stores-Datawarehouse-Design/Schemas/Schema_1.png)
+
 
 
