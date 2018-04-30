@@ -23,10 +23,11 @@ POS Cashier: C1
                  Paid by: Cash/Card
 
          
-
+  Transaction ID:  12345678910110013227
+  
+  
 -------------------------------------------------------------------------------------------------------------------------------  
-  Transaction ID:  12345678910110013227
--------------------------------------------------------------------------------------------------------------------------------
+
 ### 2. Business Process(Operational System):
 To Capture Purchases of Customers at POS and impact of Promotions on sales
 
