@@ -36,7 +36,7 @@ Facts would be -
 9. Gross Profit = Total Standard Cost - Net Amount
 
 #### Intial Retail Stores Schema
-![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Schema_1.png){:height=30px width=30px}
+![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Schema_1.png)
 
 
 
