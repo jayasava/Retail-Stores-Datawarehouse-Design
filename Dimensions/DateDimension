@@ -1,0 +1,17 @@
+DateKey(PK)
+Date(MM/DD/YYYY)
+FullDateDescription
+DayOfWeek
+DayNumberOfWeek
+DayNumberOfMonth
+DayNumberOfQuarter
+DayNumberOfYear
+MonthOfCalendar
+MonthNumberOfQuarter
+MonthNumberOfYear
+QuarterOfYear/TrimesterOfYear
+Year
+FiscalYear
+HolidayFlag
+WeekendFlag
+
