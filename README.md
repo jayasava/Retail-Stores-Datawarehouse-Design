@@ -64,7 +64,7 @@ Facts would be -
 
 ### 6. Desigining Dimensions:
      #### 1.Date Dimension
-     ![Diagram](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/DateDim.PNG)
+   ![Diagram](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/DateDim.PNG)
 
 
 
