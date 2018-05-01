@@ -12,6 +12,8 @@ MonthNumberOfYear
 QuarterOfYear/TrimesterOfYear
 Year
 FiscalYear
+FiscalYearMonth
+FiscalYearQuarter
 HolidayFlag
 WeekendFlag
 SeasonOfYear
