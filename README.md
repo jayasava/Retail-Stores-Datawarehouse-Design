@@ -62,5 +62,8 @@ Facts would be -
 #### Intial Retail Stores Schema
 ![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Schema_1.png)
 
+### 6. Desigining Dimensions:
+#### 1.Date Dimension
+
 
 
