@@ -64,6 +64,7 @@ Facts would be -
 
 ### 6. Desigining Dimensions:
   #### Date Dimension
+    Time of the Day is not considered aa a Measure of Dimension in order to avoid Data Explosion
     Link to Fields: https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/DateDim.PNG
 
 
