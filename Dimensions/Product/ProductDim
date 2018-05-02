@@ -1,1 +1,26 @@
-/* SKU is a Store Key Unit which is machine identifiable bar code storing information about Product */
+Note: Attributes for a given dimension depends on the business requirement and varies from one organization to others.
+Listed below attributes which are important and found in almost all organizations
+--------------------------------------------------------------------------------------------------------------------------------------------
+ProductKey(PrimaryKey)
+SKUNumber(Natural Key) (Assuming SKU has Product Color,size,brand,manufacturer,Weight - then all the attributes to be included as Dimensions)
+ProductShortName
+ProductFullName
+ProductPrice--Typically a fact but incase we want it to be a dimension querying constraint for analysis,then needed to be added as an attribute
+UnitOfPrice
+Brand
+Manufacturer
+SubCategory
+Category
+DptNumber
+DptName
+PackageType
+PackageColor
+PackageLength
+PackageWidth
+PackageHeight
+PackageVolume/size
+PackageWeight
+UnitofWeight
+
+
+
