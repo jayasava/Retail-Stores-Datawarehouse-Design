@@ -66,8 +66,8 @@ Facts would be -
    #### Date Dimension:
    
     Time of the Day is not considered aa a Measure of Dimension in order to avoid Data Explosion
-    Link to Fields: 
- https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/DateDim.PNG
+ Link to Fields: 
+     https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/DateDim.PNG
   
    #### Product Dimension:
      Considering the categoriation of products to be:
@@ -75,9 +75,9 @@ Facts would be -
      
      Apart from Product Key, Considering even Stock Key Unit (SKU) which is a machine identifiable barcode assigned to a product in order to track the item for inventory ( is in stock/ needs reordering).
      SKU( about 8 characters) reveals product details such as color, size, manufacturer,brand etc., This will help place different products of same category together and while customers chose a product online SKU will help to show suggestions related to same category.
-     Link to Fields: 
      
- ![](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Product/)
+ Link to Fields: 
+     https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Product/
      
 
 
