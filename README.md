@@ -63,9 +63,14 @@ Facts would be -
 ![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Schema_1.png)
 
 ### 6. Desigining Dimensions:
-  #### Date Dimension
+   #### Date Dimension:
+   
     Time of the Day is not considered aa a Measure of Dimension in order to avoid Data Explosion
     Link to Fields: https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/DateDim.PNG
-
+  
+   #### Product Dimension:
+     Considering the categoriation of products to be:
+     Stores -> Departments -> Categories -> SubCategories -> Individual Products
+     Link to Fields: https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Product
 
 
