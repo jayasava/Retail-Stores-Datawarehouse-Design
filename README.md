@@ -77,8 +77,11 @@ Listed attributes are considered basic ,important and found in almost all organi
      Considering the categoriation of products to be:
      Stores -> Departments -> Categories -> SubCategories -> Brand -> Individual Products
      
-     Apart from Product Key, Considering even Stock Key Unit (SKU) which is a machine identifiable barcode assigned to a product in order to track the item for inventory ( is in stock/ needs reordering).
-     SKU( about 8 characters) reveals product details such as color, size, manufacturer,brand etc., This will help place different products of same category together and while customers chose a product online SKU will help to show suggestions related to same category.
+     Apart from Product Key, Considering even Stock Key Unit (SKU) which is a machine identifiable barcode 
+     assigned to a product in order to track the item for inventory ( is in stock/ needs reordering).
+     SKU( about 8 characters) reveals product details such as color, size, manufacturer,brand etc., This 
+     will help place different products of same category together and while customers chose a product online
+     SKU will help to show suggestions related to same category.
      
  Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Product/
