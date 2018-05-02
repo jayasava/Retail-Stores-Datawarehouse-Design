@@ -1,0 +1,16 @@
+StoreKey(PrimaryKey)
+StoreNumber(NaturalKey)
+StoreName
+StoreManager
+StoreAddressLine1
+StoreAddressLine2
+StoreCity
+StoreCounty
+StoreState
+StoreZipCode
+StoreCountry
+StoreServiceType
+IsActive
+ActiveFrom
+ActiveTill(by default 99/99/9999)
+
