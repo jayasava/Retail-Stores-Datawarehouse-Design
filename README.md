@@ -80,5 +80,8 @@ Facts would be -
  Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Product/
      
+   #### Store Dimension:
+      
+     
 
 
