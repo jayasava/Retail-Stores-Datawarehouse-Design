@@ -1,5 +1,5 @@
 # Retail-Stores-Datawarehouse-Design
-Inspired from Ralph Kimball Datawarehouse kit
+(Inspired and followed Ralph Kimball Datawarehouse kit)
 
 ### 1. Point of Sales(POS) system:
 The Operational system of Retail system is Transaction based and on scanning the barcode of products, following details are captured.
@@ -89,6 +89,20 @@ Listed attributes are considered basic ,important and found in almost all organi
    #### Store Dimension:
   Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Store/
+     
+   #### Promotion Dimension:
+       Promotion Dimension is a Casual Dimension as it(or its attributes) has an impact on operation. 
+       It is used to analyze:
+       
+       1. Lift - Gain in sales during promotional period (Sales during promotion period - base sales before promotion from history)
+       2. Cannibalization - Decrease in sales of products in same category
+       3. Time Shifting - Negating gain in sales due to drop in sales just before or after Promotion period
+       4. Overall gain in sales
+    If multiple promotions can be applied on a product, then casual dimensions are to be placed in different dimensions.
+    In case no promotion is applied on the product , then to preserve referential integrity , including an entry in Promotion Dimension
+    to hold No promotion entry.
+  Link to Fields: 
+     https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Promotion/
    
    
       
