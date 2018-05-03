@@ -1,0 +1,16 @@
+PromotionKey(PK)
+PromotionCode(NK)
+PromotionName
+IsAd
+AdType
+AdMediaName
+IsCoupon
+CouponType
+CouponProvider
+IsDisplay
+DisplayType
+DisplayProvider
+PromotionCost
+PromotionStartDate
+PromotionEndDate
+
