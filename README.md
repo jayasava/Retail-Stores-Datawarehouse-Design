@@ -106,6 +106,12 @@ Listed attributes are considered basic ,important and found in almost all organi
   Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Promotion/
      
+   #### Cashier Dimension:
+  Link to Fields: 
+     https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Cashier/
+   #### PaymentMethod Dimension:
+  Link to Fields: 
+     https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/PaymentMethod/
  
  ### 7. Star Schema in Action:
  ![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/StarSchema.PNG)
