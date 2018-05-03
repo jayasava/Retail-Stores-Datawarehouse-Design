@@ -105,6 +105,10 @@ Listed attributes are considered basic ,important and found in almost all organi
     entry in Promotion Dimension to hold No promotion entry.
   Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Promotion/
+     
+ 
+ ### 7. Star Schema in Action:
+ ![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/StarSchema.PNG)
    
    
       
