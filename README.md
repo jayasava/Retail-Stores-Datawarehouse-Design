@@ -71,7 +71,7 @@ Listed attributes are considered basic ,important and found in almost all organi
    
     Time of the Day is not considered aa a Measure of Dimension in order to avoid Data Explosion
  Link to Fields: 
-     https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/DateDim.PNG
+    https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Date/
   
    #### Product Dimension:
      Considering the categoriation of products to be:
