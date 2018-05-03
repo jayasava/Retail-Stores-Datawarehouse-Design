@@ -1,0 +1,8 @@
+CashierKey(PrimaryKey)
+CashierCounter
+CashierCounterPin
+CashierEmployeeID(NaturalKey)
+CashierName
+CashierDeptID
+CashierDeptName
+
