@@ -1,7 +1,7 @@
 # Retail-Stores-Datawarehouse-Design
 (Inspired and followed Ralph Kimball Datawarehouse kit)
 
-### 1. Point of Sales(POS) system:
+## 1. Point of Sales(POS) system:
 The Operational system of Retail system is Transaction based and on scanning the barcode of products, following details are captured.
 (POS diagram)
 
@@ -29,14 +29,14 @@ POS Cashier: C1
   
 -------------------------------------------------------------------------------------------------------------------------------  
 
-### 2. Business Process(Operational System):
+## 2. Business Process(Operational System):
 To Capture Purchases of Customers at POS and impact of Promotions on sales
 
-### 3. Grain Declaration of Fact Table:
+## 3. Grain Declaration of Fact Table:
 The Operational System captures Lowest Grain/ Atomic data ie., Each row has single Item bought on a particular day.
 This can be used to find difference in sales daily/weekly/monthly/yearly
 
-### 4. Designing Dimensions:
+## 4. Designing Dimensions:
 
 Dimensions required as per Operational System:
 
@@ -47,7 +47,7 @@ Product|
 Promotions|
 MethodOfPayment|
 
-### 5. Identifying Facts:
+## 5. Identifying Facts:
 Fact Table consists of One product per line.
 Facts would be - 
 1. Quantity of product bought
@@ -60,20 +60,20 @@ Facts would be -
 8. Total Standard Cost = Standard Cost of Product per Unit * Quantity of product bought
 9. Gross Profit = Total Standard Cost - Net Amount
 
-#### Intial Retail Stores Schema
+### Intial Retail Stores Schema
 ![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Schema_Initial.png)
 
-### 6. Desigining Dimensions:
+## 6. Desigining Dimensions:
 Note: 
 Attributes for a given dimension depends on the business requirement and varies from one organization to others.
 Listed attributes are considered basic ,important and found in almost all organizations
-   #### Date Dimension:
+   ### Date Dimension:
    
     Time of the Day is not considered aa a Measure of Dimension in order to avoid Data Explosion
  Link to Fields: 
     https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Date/
   
-   #### Product Dimension:
+   ### Product Dimension:
      Considering the categoriation of products to be:
      Stores -> Departments -> Categories -> SubCategories -> Brand -> Individual Products
      
@@ -86,11 +86,11 @@ Listed attributes are considered basic ,important and found in almost all organi
  Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Product/
      
-   #### Store Dimension:
+   ### Store Dimension:
   Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Store/
      
-   #### Promotion Dimension:
+   ### Promotion Dimension:
     Promotion Dimension is a Casual Dimension as it(or its attributes) has an impact on operation. 
        It is used to analyze:
        
@@ -106,22 +106,41 @@ Listed attributes are considered basic ,important and found in almost all organi
   Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Promotion/
      
-   #### Cashier Dimension:
+   ### Cashier Dimension:
   Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Cashier/
-   #### PaymentMethod Dimension:
+   ### PaymentMethod Dimension:
   Link to Fields: 
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/PaymentMethod/
  
- ### 7. Star Schema in Action:
+ ## 7. Star Schema in Action:
  ![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/StarSchema.PNG)
  
- ### 8. Degenerate Dimensions:
+ ## 8. Degenerate Dimensions:
  
 * Every row in the Fact Table consists of Product purchased along with the POS Transaction Number. Transaction Number together with ProductKey serves as a Primary Key to the Fact Table.
 * The Transaction Number is used as a Grouping Key to pull all the purchases under single transaction and also to link to Operational system.
 * Transaction Number is a Dimension Key but as it doesnt have any other attributes supporting it , thus, No Dimension Table is required and is referred to as Degenerate Dimension. It stays in Fact Table and doesnt join with any Dimension Table.
    
+## 9. Factless Fact Table:
+
+In order to findout what are all the products even after being under Promotion during a given day are not sold, Factless fact table is used.
+
+FactlessFact table will not have a record of event happening on a given day but can merely have a row with foreign keys. It is used to analyze events which dint happen.
+
+In such cases, A Factless Fact table will have coverage of all the possible events that can happen and activity/operational table which has all the events that occured during that period.
+
+Set of events that didnot happen is given by Coverage minus activity table.
+
+![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Factlessfact.png)
+
+Steps to find Products on Promotion which were not sold during a day:
+
+1. Retrieving all the Products on Promotion on a given day from FactlessFact Table
+2. Retrieving all products from Operational Fact table on a given day 
+
+Then removing second query results from first would give the products which were not sold even after being promoted.
+
    
       
      
