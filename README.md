@@ -132,6 +132,8 @@ In such cases, A Factless Fact table will have coverage of all the possible even
 
 Set of events that didnot happen is given by Coverage minus activity table.
 
+As Promotion Coverage fact table has only foreign keys in order to avoid addition of keys, a dummy fact promotioncount is used which hold value 1 indication each product having promotion.
+
 ![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/FactlessFact.PNG)
 
 Steps to find Products on Promotion which were not sold during a day:
