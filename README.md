@@ -120,7 +120,7 @@ Listed attributes are considered basic ,important and found in almost all organi
  
 * Every row in the Fact Table consists of Product purchased along with the POS Transaction Number. Transaction Number together with ProductKey serves as a Primary Key to the Fact Table.
 * The Transaction Number is used as a Grouping Key to pull all the purchases under single transaction and also to link to Operational system.
-* Transaction Number is a Dimension Key but as it doesnt have any other attributes supporting it , thus, No Dimension is required and is referred to ad Degenerate Dimension. It stays in Fact Table and doesnt join with any Dimension Table.
+* Transaction Number is a Dimension Key but as it doesnt have any other attributes supporting it , thus, No Dimension Table is required and is referred to as Degenerate Dimension. It stays in Fact Table and doesnt join with any Dimension Table.
    
    
       
