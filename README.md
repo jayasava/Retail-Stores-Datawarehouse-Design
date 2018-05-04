@@ -143,6 +143,12 @@ Steps to find Products on Promotion which were not sold during a day:
 
 Then removing second query results from first would give the products which were not sold even after being promoted.
 
+## 10. SnowflakeSchema:
+
+![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Snowflakeschema.PNG)
+
+
+
    
       
      
