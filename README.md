@@ -145,7 +145,7 @@ Then removing second query results from first would give the products which were
 
 ## 10. SnowflakeSchema:
 
-![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Snowflakeschema.PNG)
+![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/SnowflakeSchema.PNG)
 
 
 
