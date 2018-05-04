@@ -132,7 +132,7 @@ In such cases, A Factless Fact table will have coverage of all the possible even
 
 Set of events that didnot happen is given by Coverage minus activity table.
 
-![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/Factlessfact.png)
+![Link](https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Schemas/FactlessFact.PNG)
 
 Steps to find Products on Promotion which were not sold during a day:
 
