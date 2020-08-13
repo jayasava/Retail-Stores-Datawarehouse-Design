@@ -91,7 +91,7 @@ Listed attributes are considered basic ,important and found in almost all organi
      https://github.com/jayasava/Retail-Stores-Datawarehouse-Design/blob/master/Dimensions/Store/
      
    ### Promotion Dimension:
-    Promotion Dimension is a Casual Dimension as it(or its attributes) has an impact on operation. 
+    Promotion Dimension is a Causal Dimension as it(or its attributes) has an impact on operation. 
        It is used to analyze:
        
        1. Lift - Gain in sales during promotional period (Sales during promotion period - base 
